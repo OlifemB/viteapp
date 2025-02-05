@@ -1,5 +1,5 @@
-import '../common/styles/main.css'
-import Logo from '../common/vectors/signature.svg?react'
+import '@/common/styles/main.css'
+import Logo from '@/common/vectors/signature.svg?react'
 
 function Main() {
     // return <img src={logo} alt={''} />

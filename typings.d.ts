@@ -1,4 +1,9 @@
-declare module '@/assets/icons/*.svg' {
+declare module '@/assets/icons/**/*.svg' {
+    import React from "react";
+    const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
+    export default SVG;
+}
+declare module '@/assets/vectors/**/*.svg' {
     import React from "react";
     const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
     export default SVG;
@@ -10,7 +15,7 @@ declare module "@/*.json" {
 }
 
 declare module '*.scss' {
-    const resource: {[key: string]: string};
+    const resource: { [key: string]: string };
     export = resource;
 }
 
@@ -25,6 +30,7 @@ declare module '@mui/material/styles' {
             danger: string;
         };
     }
+
     // allow configuration using `createTheme`
     interface ThemeOptions {
         status?: {

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from 'tailwindcss'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
 import react from '@vitejs/plugin-react'
