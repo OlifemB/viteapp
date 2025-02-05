@@ -1,7 +1,9 @@
 import '../common/styles/main.css'
+import Logo from '../common/vectors/signature.svg?react'
 
 function Main() {
-    return <p className={'text-5xl font-bold'}>Hello world!</p>
+    // return <img src={logo} alt={''} />
+    return <Logo className={'w-full h-auto'} />
 }
 
 export default Main
