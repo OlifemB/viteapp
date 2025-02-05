@@ -1,34 +1,31 @@
 {
-    "compilerOptions": {
-        "paths": {
-            "@/*": ["src/*"]
-        },
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "esnext"
-        ],
-        "target": "es5",
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        // "noEmit": true,
-        "esModuleInterop": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "isolatedModules": false,
-        "jsx": "preserve",
-        "incremental": true,
-        "baseUrl": "./src",
-    },
-    "includes": [
-        "src",
-        "./typings.ts"
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "exclude": [
-        "node_modules",
-        "build"
-    ]
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    // "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./src"
+  },
+  "includes": [
+    "src",
+    "./typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }
